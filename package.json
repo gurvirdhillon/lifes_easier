@@ -1,0 +1,25 @@
+{
+  "name": "lifes_easier",
+  "version": "1.0.0",
+  "description": "an app which helps manage daily living",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "up2016988@myport.ac.uk",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  },   "eslintConfig": {
+    "extends": "portsoc",
+    "root": true,
+    "env": {
+      "browser": true
+    }
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-portsoc": "github:portsoc/eslint-config-portsoc"
+  }
+}
