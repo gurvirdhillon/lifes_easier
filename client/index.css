@@ -20,3 +20,47 @@ body{
     align-items: center;
     height: 100vh;
 }
+
+
+/* Styling for chat box */
+#msgBox {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.talkingBotChat {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+}
+
+/* Styling for select dropdown */
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+    margin-bottom: 20px;
+}
+
+/* Styling for submit button */
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
