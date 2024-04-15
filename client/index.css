@@ -38,14 +38,13 @@ body{
     margin: 0;
 }
 
-/* Styling for select dropdown */
 select {
     width: 100%;
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    box-sizing: border-box; /* Ensure padding and border are included in width */
+    box-sizing: border-box;
     margin-bottom: 20px;
 }
 
