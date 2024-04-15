@@ -1,5 +1,10 @@
-body{
-    background-color: lavender;
+body {
+    background-image: url('mountain.png');
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 #welcome{
